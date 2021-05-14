@@ -1,0 +1,86 @@
+/* SECTIONS */
+
+body {
+    background-color: gainsboro;
+    font-family: Montserrat;
+    width: fit-content;
+}
+
+header {
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0.6rem;
+    width: 100vw;
+}
+
+.category {
+    background-color: white;
+    margin: 0.3rem;
+    padding: 0.4rem;
+}
+
+.main {
+    margin: auto;
+    width: 97%;
+}
+
+.chapter {
+    background-color: white;
+    padding: 0rem 0.6rem;
+}
+
+.backToTop {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.6rem 0rem;
+    text-align: center;
+    width: 25%;
+}
+
+/* TITLES */
+
+h1 {
+    text-align: center;
+}
+
+.category h4 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.category li {
+    font-size: 0.9rem;
+    line-height: 2.3rem;
+    list-style-type: none;
+}
+
+.category li:before {
+    content: '\27AD';
+    font-size: 1.3rem;
+    margin-left: -20px;
+    position: absolute;
+}
+
+/* LINKS */
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.backToTop a {
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+/* IMG */
+
+.chapter img {
+    max-width: 100%;
+}
