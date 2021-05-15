@@ -39,16 +39,6 @@ header {
     padding: 0rem 0.6rem;
 }
 
-.backToTop {
-    background-color: white;
-    margin: auto;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 0.6rem 0rem;
-    text-align: center;
-    width: 25%;
-}
-
 hr {
   background-color: #dcdcdc4f;
   border: 0rem;
@@ -91,6 +81,7 @@ a.backToTop {
   background-color: #eaf7ff;
   color: #848484;
   font-size: 1.3rem;
+  margin-top: 1rem;
   padding: 0.6rem 2rem;
   text-align: center;
   text-decoration: none;
