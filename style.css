@@ -6,6 +6,10 @@ body {
     width: fit-content;
 }
 
+.mainTitle {
+  background-color: ghostwhite;
+}
+
 header {
     background-color: ghostwhite;
     display: flex;
@@ -22,12 +26,16 @@ header {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     width: 97%;
 }
 
 .chapter {
     background-color: white;
+    margin-top: 1rem;
     padding: 0rem 0.6rem;
 }
 
@@ -39,6 +47,12 @@ header {
     padding: 0.6rem 0rem;
     text-align: center;
     width: 25%;
+}
+
+hr {
+  background-color: #dcdcdc4f;
+  border: 0rem;
+  height: 0.2rem;
 }
 
 /* TITLES */
@@ -73,10 +87,13 @@ header a {
     text-decoration: none;
 }
 
-.backToTop a {
-    color: black;
-    font-size: 1.3rem;
-    text-decoration: none;
+a.backToTop {
+  background-color: #eaf7ff;
+  color: #848484;
+  font-size: 1.3rem;
+  padding: 0.6rem 2rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* IMG */
