@@ -16,68 +16,78 @@
 
   <body>
     <div class="mainTitle"><h1>fiches javascript</h1></div>
-    <header id="top">
-      <div class="category">
-        <h4>conditions & boucles</h4>
-        <ul>
-          <li><a href="#for">for</a></li>
-          <li><a href="#while">while - do...while</a></li>
-          <li><a href="#elseif">else if & switch</a></li>
-        </ul>
+    <header>
+      <div class="top">
+        <div class="category" style="background-color: #ffffea;">
+          <h4>conditions & boucles</h4>
+          <ul>
+            <li><a href="#for">for</a></li>
+            <li><a href="#while">while - do...while</a></li>
+            <li><a href="#elseif">else if & switch</a></li>
+          </ul>
+        </div>
+        <div class="category" style="background-color: rgb(223, 231, 253);">
+          <h4>Méthodes</h4>
+          <ul>
+            <li><a href="#number">objet global Number</a></li>
+            <li><a href="#string">objet global String</a></li>
+            <li><a href="#math">objet global Math</a></li>
+            <li><a href="#date">objet global Date</a></li>
+            <li><a href="#array">objet global Array</a></li>
+            <li><a href="#navigator">objet Navigator</a></li>
+            <li><a href="#window">objet Window</a></li>
+            <!-- <li><a href="#navigator">objet Navigator</a></li> -->
+            <li><a href="#history">objet History</a></li>
+            <li><a href="#location">objet Location</a></li>
+            <li><a href="#screen">objet Screen</a></li>
+          </ul>
+        </div>
+        <div class="category" style="background-color: rgb(250, 210, 225);">
+          <h4>éditer le html</h4>
+          <ul>
+            <li><a href="#textcontent">textContent - innerText -<br>createTextNode -<br>innerHTML - outerHTML</a></li>
+            <li><a href="#querysel">querySelector - querySelectorAll</a></li>
+            <li><a href="#getelement">getElementBy ...</a></li>
+            <li><a href="#append">appendChild - createElement - insertBefore</a></li>
+            <li><a href="#prepend">append - prepend</a></li>
+            <li> <a href="#adjacent">insertAdjacentElement() - insertAdjacentHTML() - insertAdjacentText() -<br>
+              beforebegin/end - afterbegin/end</a> </li>
+            <li><a href="#clone">cloneNode() - replaceChild() - removeChild()</a></li>
+            <li><a href="#style">style : color - fontSize - backgroundColor</a></li>
+          </ul>
+        </div>
+        <div class="category" style="background-color: rgb(226, 236, 233);">
+          <h4>naviguer dans le DOM</h4>
+          <ul>
+            <li><a href="#dom">parent - child - siblings</a></li>
+            <li><a href="#nodename">nodeName - nodeValue - nodeType</a></li>
+            <li><a href="#attributes">attributes - hasAttributes() - getAttributeNames() -<br>
+            setAttribute() - removeAttribute() - toggleAttribute()</a></li>
+          </ul>
+        </div>
+        <div class="category" style="background-color: rgb(255, 241, 230);">
+          <h4>events</h4>
+          <ul>
+            <li><a href="#htmlattributes">HTML attributes <span>/!\</span> soon obsolete : onclick - onmouseover/out</a></li>
+            <li><a href="#onclick">querySelector - style - onclick - onmouseover</a></li>
+            <li><a href="#addevent">addEventListener - removeEventListener</a></li>
+            <li><a href="#timeout">setTimeout() - clearTimeout()</a></li>
+            <li><a href="#interval">setInterval() - clearInterval()</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="category">
-        <h4>Méthodes</h4>
-        <ul>
-          <li><a href="#number">objet global Number</a></li>
-          <li><a href="#string">objet global String</a></li>
-          <li><a href="#math">objet global Math</a></li>
-          <li><a href="#date">objet global Date</a></li>
-          <li><a href="#array">objet global Array</a></li>
-          <li><a href="#navigator">objet Navigator</a></li>
-          <li><a href="#window">objet Window</a></li>
-          <!-- <li><a href="#navigator">objet Navigator</a></li> -->
-          <li><a href="#history">objet History</a></li>
-          <li><a href="#location">objet Location</a></li>
-          <li><a href="#screen">objet Screen</a></li>
-        </ul>
-      </div>
-      <div class="category">
-        <h4>éditer le html</h4>
-        <ul>
-          <li><a href="#textcontent">textContent - innerText -<br>createTextNode -<br>innerHTML - outerHTML</a></li>
-          <li><a href="#querysel">querySelector - querySelectorAll</a></li>
-          <li><a href="#getelement">getElementBy ...</a></li>
-          <li><a href="#append">appendChild - createElement - insertBefore</a></li>
-          <li><a href="#prepend">append - prepend</a></li>
-          <li> <a href="#adjacent">insertAdjacentElement() - insertAdjacentHTML() - insertAdjacentText() -<br>
-            beforebegin/end - afterbegin/end</a> </li>
-          <li><a href="#clone">cloneNode() - replaceChild() - removeChild()</a></li>
-          <li><a href="#style">style : color - fontSize - backgroundColor</a></li>
-        </ul>
-      </div>
-      <div class="category">
-        <h4>naviguer dans le DOM</h4>
-        <ul>
-          <li><a href="#dom">parent - child - siblings</a></li>
-          <li><a href="#nodename">nodeName - nodeValue - nodeType</a></li>
-          <li><a href="#attributes">attributes - hasAttributes() - getAttributeNames() -<br>
-          setAttribute() - removeAttribute() - toggleAttribute()</a></li>
-        </ul>
-      </div>
-      <div class="category">
-        <h4>events</h4>
-        <ul>
-          <li><a href="#htmlattributes">HTML attributes <span>/!\</span> soon obsolete : onclick - onmouseover/out</a></li>
-          <li><a href="#onclick">querySelector - style - onclick - onmouseover</a></li>
-          <li><a href="#addevent">addEventListener - removeEventListener</a></li>
-          <li><a href="#timeout">setTimeout() - clearTimeout()</a></li>
-          <li><a href="#interval">setInterval() - clearInterval()</a></li>
-        </ul>
+      <div class="top">
+        <div class="category" style="background-color: #ffdfff;">
+          <h4>API</h4>
+          <ul>
+            <li><a href="#fetch">fetch()</a></li>
+          </ul>
+        </div>
       </div>
     </header>
-    <!-- /////////////////////////////////////////////////////////////////////// -->
-    <!-- /////////////////////////////////////////////////////////////////////// -->
-    <!-- /////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////// -->
     <div class="main">
       <div class="chapter">
         <h3 id="for">boucle for</h3>
@@ -242,13 +252,14 @@
         <img src="img/interval-timeout/setInterval()-clearInterval().png" alt="">
         <img src="img/interval-timeout/setInterval-clearInterval.png" alt="">
       </div>
+      <div class="chapter">
+        <h3 id="fetch">fetch</h3>
+        <img src="img/api/fetch/fetch.png" alt="">
+      </div>
     </div>
 
 
-    <div class="chapter">
-      <h3 id=""></h3>
-      <img src="img/" alt="">
-    </div>
+
     <div class="chapter">
       <h3 id=""></h3>
       <img src="img/" alt="">

@@ -12,17 +12,20 @@ body {
 
 header {
     background-color: ghostwhite;
-    display: flex;
-    flex-wrap: wrap;
     margin: auto;
     padding: 0.6rem;
     width: 100vw;
 }
 
+.top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .category {
     background-color: white;
     margin: 0.3rem;
-    padding: 0.4rem;
+    padding: 0.4rem 1.6rem 0rem 0.1rem;
 }
 
 .main {
