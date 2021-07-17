@@ -18,8 +18,10 @@ header {
 }
 
 .top {
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0.4rem;
 }
 
 .category {
@@ -103,4 +105,12 @@ a.backToTop {
 
 .chapter img {
     max-width: 100%;
+}
+
+
+@media all and (max-device-width: 480px) {
+
+  h1 {
+    font-size: 4rem;
+  }
 }
